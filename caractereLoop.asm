@@ -1,4 +1,6 @@
-#caractere maiusculo loop ate digitar 'z'
+#Crie um programa que leia uma letra em minúscula, e retornará a mesma letra, só que
+#maiúscula. O mesmo deverá estar em um Loop infinito. a saída do loop se deve ao digitar a
+#letra 'z'.
 main:
 	
 	loop:
