@@ -1,4 +1,5 @@
 #Leia um numero n e escreva os primeiros n números tetraedricos
+#https://en.wikipedia.org/wiki/Tetrahedral_number#:~:text=The%20tetrahedral%20numbers%20are%3A,sequence%20A000292%20in%20the%20OEIS)
 main:
 	li $v0, 5
 	syscall
@@ -27,6 +28,10 @@ main:
 				li $v0, 1
 				add $a0, $t2, $zero
 				syscall
+				
+				li $v0, 11
+				addi $a0, $zero,10
+				syscall 
 				
 				addi $t1, $t1, 1			# n = n + 1
 				j while_um
